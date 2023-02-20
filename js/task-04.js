@@ -2,8 +2,8 @@ let counterValue = 0;
 let value = document.querySelector("span#value");
 value.textContent = counterValue;
 
-const buttonIncrement = document.querySelector("button[data-action='increment']");;
-const buttonDecrement = document.querySelector("button[data-action='decrement']");;
+const buttonIncrement = document.querySelector("button[data-action='increment']");
+const buttonDecrement = document.querySelector("button[data-action='decrement']");
 
 const handleClickIncrement = (button) => {
     

@@ -12,7 +12,7 @@ button.addEventListener("click", changeColor);
 
 function changeColor()  {
   const color = getRandomHexColor();
-  body.setAttribute("style", `background-color:${color}`);
+  body.style.backgroundColor = `${color}`;
   backgroundSpan.textContent = color;
 };
 

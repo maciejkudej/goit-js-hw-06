@@ -17,10 +17,10 @@ const list = document.querySelector("ul.gallery");
 
 const markup = images
   .map(
-    (image) => `<li><img src=${image.url} alt=${image.alt} width="100%"/></li>`
+    (image) => `<li><img src=${image.url} alt=${image.alt} width="300" height="200"/></li>`
   )
   .join("");
 
-console.log(markup);
+
 
 list.insertAdjacentHTML("afterbegin", markup);
